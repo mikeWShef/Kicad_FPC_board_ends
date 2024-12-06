@@ -21,14 +21,17 @@ Would indicate a polyimide stiffener 0.2mm thick on the back side of the board
 
 ## Generating your own footprints
 This python package can be installed by pip:
+
 `pip install git+https://github.com/mikeWShef/Kicad_FPC_board_ends`
 
-And run from the command line:
-`fpc_footprint_generator 4 0.5 -r 0.2`
+And run from the command line eg:
+
+`fpc_footprint_generator [positions] [pitch] -r [corner radius]`
 
 Will generate a 4 position 0.5mm pitch board end with a corner radius of 0.2mm
 
 The full arguments are:
+
 `fpc_footprint_generator -h:`
 
 positional arguments:
